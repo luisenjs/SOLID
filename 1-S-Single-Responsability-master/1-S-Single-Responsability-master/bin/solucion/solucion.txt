@@ -1,0 +1,4 @@
+se separaron las responsabilidades:
+
+•Vehiculo solo se encarga de definir los atributos de un vehiculo
+•Impresora solo se encarga de imprimir informacion 

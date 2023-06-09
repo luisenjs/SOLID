@@ -1,0 +1,3 @@
+si queremos que la aplicacion pueda dibujar mas tipos de veiculos, se deben agregar mas metodos
+a la clase Vehiculo para realizar dichos dibujos, es decir, la clase Vehiculo debe ser modificada 
+cada vez que queremos extender su comportamiento.

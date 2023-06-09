@@ -1,0 +1,7 @@
+Open Closed
+
+•Una clase debe estar abierta para extenderse, pero cerrada para modificarse
+•El comportamiento de una clase debe poder extenderse sin tener que modificar su codigo
+•El principio Open/Closed se suele resolver utilizando polimorfismo 
+
+

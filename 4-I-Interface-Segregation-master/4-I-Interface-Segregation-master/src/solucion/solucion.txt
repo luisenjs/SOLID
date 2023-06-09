@@ -1,0 +1,2 @@
+se hace una mejor segregacion de interfaces, haciendo que cada clase implemente solo las interfaces que realmente 
+tengan los metodos que necesiten

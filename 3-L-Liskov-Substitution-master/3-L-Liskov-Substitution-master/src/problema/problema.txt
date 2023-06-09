@@ -1,0 +1,2 @@
+La clase Elefante hereda los metodos caminar() y saltar() de la clase Animal, sin embargo un Elefante NO puede
+saltar, por lo tanto la clase hija Elefante no podria sustituir a la clase padre Animal.

@@ -1,0 +1,19 @@
+dependency inversion
+
+•Hace que el core de la aplicacion no tenga que depender de factores externos como el framework, bases
+ de datos, servidores u otros.
+•Todos los factores externos se definen mediante interfaces, con el fin de que el core no conozca lo que
+ está utilizando. Simplemente debe utilizar el objeto que implementa a la interfaz.
+•Las clases de alto nivel NO deberian depender de las clases de bajo nivel, ambas deberian depender de abstracciones. 
+ Ademas, las abstracciones NO deberian depender de los detalles, sino que los detalles deberian depender de las
+ abstracciones.
+
+ se incumple cuando:
+ 
+ •se instancian clases complejas dentro de otra clase, es decir, crear un objeto dentro de una clase.
+ 
+ posibles soluciones:
+ 
+ •Pasar las dependencias por el constructor
+ •Mediante metodos Setters
+ •Utilizando un inyector de dependencias

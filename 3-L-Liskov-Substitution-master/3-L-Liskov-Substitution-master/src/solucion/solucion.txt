@@ -1,0 +1,5 @@
+Se hace una mejor abstraccion de las clases: se elimina el metodo saltar() de Animal, y se crea una nueva clase
+AnimalLiviano que si tiene el metodo saltar() y ademas hereda de Animal.
+
+NOTA: en este ejemplo se soluciono el problema utilizando herencia, pero el principio tambien se puede aplicar
+utilizando composicion.

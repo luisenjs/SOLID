@@ -1,0 +1,2 @@
+hay una muy mala absatraccion de los metodos de la interfaz InstrumentoMusical, ya que no todos los instruemtos
+musicales pueden hacer lo que que en dicha interfaz se define.

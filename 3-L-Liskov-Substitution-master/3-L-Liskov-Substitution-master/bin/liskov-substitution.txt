@@ -1,0 +1,10 @@
+Liskov Substitution
+
+•Las clases hijas deben poder sustituir a las clases padre y que el codigo siga funcionando exactamente igual.
+•Permite garantizar que al momento de extender de una clase no se modifique el comportamoiento de la clase padre.
+•Desmiente la idea de que la POO es una representacion en codigo de la realidad, cuando nos ajustamos mucho a la
+ realidad para modelar los objetos es posible que surjan problemas que violen este principio.
+ 
+ Se incumple cuando:
+ •un metodo de una clase padre no tiene sentido o no aplica para una clase hija.
+ 

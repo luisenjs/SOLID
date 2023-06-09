@@ -1,0 +1,5 @@
+•La clase de alto nivel CarritoCompras esta dependiendo de las clases de bajo nivel 
+ AccesoDatosSQL y PagoTarjetaCredito (la clase de alto nivel sabe como funcionan las clases de bajo nivel, ya
+ que las conoce)
+•Las clases AccesoDatosSQL y PagoTarjetaCredito estan siendo instanciadas en la clase CarritoCompras
+•Hay un alto acoplamiento entre la clase CarritoCompras con las clases AccesoDatosSQL y PagoTarjetaCredito 

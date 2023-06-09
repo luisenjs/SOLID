@@ -1,0 +1,15 @@
+En lugar de tener una clase Vehiculo, se crea una interfaz Vehiculo con el metodo dibujar. cada vez que sea necesario 
+agregar un nuevo tipo de vehiculo a la aplicacion, simplemente se crea como una nueva clase que implemeta a la 
+interfaz Vehiculo, para luego sobreescribir el metodo dibujar segun corresponda.
+De esta manera se está extendiendo el comportamiento de Vehiculo sin tener que modificar la interfaz Vehiculo.
+
+NOTA: en este ejemplo se viola el principio de responsabilidad unica, ya que se mezcla logica de dominio
+y de presentacion, sin embargo no significa que la solucion sea incorrecta, habria que analizar si tener metodos
+de presentacion en las clases correspondientes al dominio afecta negativamente a la mantenibilidad y estabilidad del
+codigo, en ese caso habria que buscar una nueva solucion.
+
+una solucion alternativa podria ser crear una interfaz encargada solo de dibujar, y aplicar el polimorfismo sobre dicha interfaz
+implementandola desde diferentes clases para dibujar un tipo de vehiculo en especifico.
+
+NOTA 2: la complejidad que añade este principio NO siempre compensa, por eso, como el resto de principios solo se debe
+aplicar si realmente es necesario.

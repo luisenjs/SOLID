@@ -1,0 +1,1 @@
+se esta mezclando la logica de negocio y la logica de presentacion 

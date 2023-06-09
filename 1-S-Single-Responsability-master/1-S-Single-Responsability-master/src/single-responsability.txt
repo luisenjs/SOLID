@@ -1,0 +1,8 @@
+Single Responsability
+
+•Una calse debe realizar una unica tarea 
+•Una clase debe tener una unica razon para cambiar, es decir, si la clase va a ser modificada es porque el comportamiento
+ de su unica responsabilidad debe cambiar.  
+
+Se incumple cuando:
+•En una misma clase estan involucradas varias capas de la arquitectura

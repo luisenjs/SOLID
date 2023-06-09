@@ -1,0 +1,8 @@
+•La clase CarritoCompras ya no depende de clases espeficicas, sino que depende de Interfaces.
+•Se está haciendo una correcta inyeccion de dependencias, pasando las dependencias de acceso a datos y metodo de
+ pago mediante el constructor de CarritoCompras, en lugar de crear los objetos dentro de la clase.
+ 
+ Gracias a este principio es posible utilizar diferentes metodos de pago, o guardar la informacion es distintas bases
+ de datos, sin que el modulo tenga que preocuparse por eso, ya que el modulo simplemente SABE LO QUE sus dependencias
+ deben de hacer, pero NO SABE COMO lo hacen. De esta manera se garantiza un bajo acoplamiento entre el modulo y 
+ sus dependencias, lo cual significa una mayor flexibilidad entre distintos componentes.

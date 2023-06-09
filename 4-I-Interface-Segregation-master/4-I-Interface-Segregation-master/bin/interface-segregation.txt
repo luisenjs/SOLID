@@ -1,0 +1,13 @@
+Interface segregation
+
+•Una clase nunca deberia depender de metodos que no usa
+•Los metodos de una interfaz deben ser relevantes para cualquier clase que la implemente, si no es el caso,
+ es mejor tener varias interfaces mas pequeñas
+•Las interfaces nos ayudan a desacoplar modulos entre si, ya que el modulo que utiliza la interfaz no necesita conocer
+ cual es la implementacion
+ 
+Se incumple cuando:
+
+•Las interfaces intentan definir más cosas de las debidas, lo que se denomina fat interfaces.
+•Si al implementar una interfaz ves que uno o varios de los metodos no tienen sentido y hace falta dejarlos vacios
+ o lanzar excepciones
